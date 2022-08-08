@@ -1,5 +1,5 @@
 import math
-from re import I
+
 def areatriangulo(altura, base):
     return base * altura / 2
 
