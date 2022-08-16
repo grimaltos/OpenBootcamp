@@ -1,5 +1,5 @@
-listapaises = input("por favor, intoruce una lista de paises separados por una coma:\n").title().split(',')
+listapaises = input("por favor, intoruce una lista de paises separados por una coma:\n").split(',')
 listapaises = sorted(set(listapaises))
 
 
-print(listapaises)
+print(",".join(listapaises))
