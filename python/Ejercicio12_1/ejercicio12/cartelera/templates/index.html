@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Cartelera</h1>
+
+  <p>Bienvenido a la <em>Cartelera</em>, un proyecto para el ejercicio 12 del tutorial de Django de open Bootcamp.</p>
+
+<h2>Contenido dinámico</h2>
+
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>Peliculas:</strong> {{ num_films }}</li>
+    <li><strong>Directores:</strong> {{ num_authors }}</li>
+  </ul>
+
+{% endblock %}
